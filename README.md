@@ -44,3 +44,47 @@ The chatbot uses a local file (`knowledge_base.md`) containing:
 ```bash
 git clone https://github.com/avyadixit/social-to-lead-agent1.git
 cd social-to-lead-agent1
+```
+
+### 2. Create virtual environment
+```bash
+python -m venv .venv
+```
+
+### 3. Activate virtual environment
+
+Windows (Git Bash):
+```bash
+source .venv/Scripts/activate
+```
+
+Windows (CMD):
+```bash
+.venv\Scripts\activate
+```
+
+Mac/Linux:
+```bash
+source .venv/bin/activate
+```
+
+### 4. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Run the application
+```bash
+python app.py
+```
+
+### 6. Start chatting
+
+Type:
+```
+hi
+what are your plans?
+I want to sign up
+```
+
+Type `exit` to quit.
