@@ -78,13 +78,26 @@ pip install -r requirements.txt
 python app.py
 ```
 
-### 6. Start chatting
+##  Sample Conversation
 
-Type:
 ```
-hi
-what are your plans?
-I want to sign up
-```
+You: hi  
+Bot: Hello! I am the AutoStream assistant. How can I help you today?
 
-Type `exit` to quit.
+You: what are your plans?  
+Bot: AutoStream has two plans:
+- Basic Plan: $29/month (10 videos, 720p)
+- Pro Plan: $79/month (unlimited, 4K, AI captions)
+
+You: I want to sign up  
+Bot: May I have your name?
+
+You: Avya  
+Bot: Thanks. Your email?
+
+You: avyadixit9120@gmail.com  
+Bot: Which creator platform do you use?
+
+You: Instagram  
+Bot: Lead captured successfully!
+```
